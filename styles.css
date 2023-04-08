@@ -1,7 +1,6 @@
 main{
     background-image: url('galaxy.gif');
     background-repeat: repeat;
-    height : 100vh ; 
     min-width : 1000px ;
 }
 h1{
