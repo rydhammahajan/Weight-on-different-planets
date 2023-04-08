@@ -1,0 +1,52 @@
+main{
+    background-image: url('galaxy.gif');
+    height : 100vh ; 
+    min-width : 1000px ;
+}
+h1{
+    text-shadow : 1px 1px 5px white ;
+}
+button{
+    font-size: 14px;
+    background-color: rgba(220, 220, 220,0.7);
+    color : white ;
+    outline: none;
+}
+input:focus , select:focus{
+    outline: none;
+}
+.display-settings{
+    display : flex ;
+}
+.hero-container{
+    height : 600px ;
+    background-color: rgba(128, 128, 128 , 0.2);
+    color : white ;
+}
+.output-box{
+    background-color:  rgba(128, 128, 128 , 0.1);
+    font-size: 20px ;
+    letter-spacing: 0.4rem;
+    word-spacing: 0.2rem;
+    display: none ;
+}
+.weight{
+    height : 200px ; 
+    width : 200px ;
+    background-color:  rgba(128, 128, 128 , 0.1);
+    border-radius: 50% ;
+    display: none ;
+}
+img{
+    height : 500px ;    
+}
+
+@media screen and (max-width: 1450px ){
+    img{
+        height : 400px;   
+    }    
+    .output-box{
+        letter-spacing:normal;
+        word-spacing: normal;
+    }
+}
