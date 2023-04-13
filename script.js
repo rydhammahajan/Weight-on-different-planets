@@ -1,7 +1,6 @@
 {
 
     let mass = document.querySelector("input") ; 
-    console.log(mass) ; 
     let planetChoice = document.querySelector("select") ; 
     let button = document.querySelector("button") ; 
     let planetContainer = document.querySelector(".planet-box") ; 
@@ -40,8 +39,6 @@
     })
 
     function findMass(mvalue){
-
-        console.log("hell") ; 
 
         let ans = 0 ; 
         let planet ; 
@@ -88,7 +85,7 @@
         }
         textContainer.innerText = "The weight of the object on "+ planet ;
         weightContainer.innerText = ans.toFixed(2) + " N"; 
-        document.querySelector("img").src = images[planetChoice.value*1 - 1] ; 
+        document.querySelector("img").src = images[Number(planetChoice.value) - 1] ; 
  
     }
 

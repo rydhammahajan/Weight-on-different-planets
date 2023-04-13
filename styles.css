@@ -20,8 +20,8 @@ input:focus , select:focus{
     display : flex ;
 }
 .hero-container{
-    height : 600px ;
     background-color: rgba(128, 128, 128 , 0.2);
+    padding: 50px 0px;
     color : white ;
 }
 .output-box{
@@ -52,8 +52,8 @@ img{
     }
     .hero-container{
         display: flex; 
-        flex-direction: column;
-        height : 1000px ;
+        flex-direction: column-reverse;
+        gap : 20px ;
     }
 }
 
